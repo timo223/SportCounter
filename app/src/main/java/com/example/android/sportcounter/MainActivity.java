@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openBasketball(View view) {
-        Intent i = new Intent(this, KickerActivity.class);
+        Intent i = new Intent(this, BasketballActivity.class);
         startActivity(i);
     }
 
     public void openChecklist(View view) {
-        Intent i = new Intent(this, KickerActivity.class);
+        Intent i = new Intent(this, ChecklistActivity.class);
         startActivity(i);
     }
 }

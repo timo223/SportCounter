@@ -15,9 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KickerActivity" />
-        <activity android:name=".BasketballActivity" />
-        <activity android:name=".ChecklistActivity" />
+        <activity android:name=".KickerActivity"
+            android:label="@string/category_numbers"/>
+        <activity android:name=".BasketballActivity"
+            android:label="@string/category_family"/>
+        <activity android:name=".ChecklistActivity"
+            android:label="@string/category_colors"/>
     </application>
 
 </manifest>
