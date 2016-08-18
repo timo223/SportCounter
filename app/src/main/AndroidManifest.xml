@@ -17,13 +17,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".KickerActivity"
-            android:theme="@style/AppTheme"
+            android:theme="@style/KickerTheme"
             android:label="@string/category_numbers"/>
         <activity android:name=".BasketballActivity"
             android:label="@string/category_family"
             android:theme="@style/BasketballTheme"/>
         <activity android:name=".ChecklistActivity"
-            android:theme="@style/AppTheme"
+            android:theme="@style/ChecklistTheme"
             android:label="@string/category_colors"/>
     </application>
 

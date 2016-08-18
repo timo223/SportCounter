@@ -10,14 +10,14 @@
     <color name="tan_background">#FFF7DA</color>
 
 
-    <color name="category_numbers">#379237</color>
+    <color name="category_kicker">#4CAF50</color>
 
 
-    <color name="category_family">#FD8E09</color>
+    <color name="category_basketball">#FF9800</color>
 
 
-    <color name="category_colors">#8800A0</color>
+    <color name="category_checklist">#F44336</color>
 
 
-    <color name="category_phrases">#16AFCA</color>
+    <color name="category_news">#2196F3</color>
 </resources>

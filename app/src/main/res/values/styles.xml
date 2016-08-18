@@ -9,7 +9,29 @@
         <item name="colorPrimaryDark">#E65100</item>
     </style>
 
+    <style name="KickerTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#4CAF50</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#4CAF50</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+    </style>
 
+    <style name="ChecklistTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/category_checklist</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/category_checklist</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+    </style>
+
+    <style name="NewsTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">@color/category_news</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/category_news</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+    </style>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
