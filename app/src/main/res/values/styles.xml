@@ -6,14 +6,15 @@
         <item name="colorPrimary">#FF9800</item>
         <!-- Background color of buttons in the app -->
         <item name="colorButtonNormal">#FF9800</item>
+        <item name="colorPrimaryDark">#E65100</item>
     </style>
 
 
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorPrimary">@color/primary_color</item>
-        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorPrimary">#9E9E9E</item>
+        <item name="colorPrimaryDark">#616161</item>
     </style>
 
     <!-- Style for a category of vocabulary words -->
