@@ -18,7 +18,9 @@ public class KickerActivity extends AppCompatActivity {
 
     public void minusScoreA(View v) {
         displayForTeamA(2);
-        scoreTeamA = scoreTeamA -1;
+        if (scoreTeamA > 0) {
+            scoreTeamA = scoreTeamA -1;
+        }
         displayForTeamA(scoreTeamA);
     }
 
@@ -50,7 +52,9 @@ public class KickerActivity extends AppCompatActivity {
 
     public void minusScoreB(View v) {
         displayForTeamB(2);
-        scoreTeamB = scoreTeamB -1;
+        if (scoreTeamB > 0) {
+            scoreTeamB = scoreTeamB -1;
+        }
         displayForTeamB(scoreTeamB);
     }
 
