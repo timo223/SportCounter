@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openNews(View view){
-        String url = "http://www.sport.de/";
+        String url = "https://www.google.de/?ion=1&espv=2#q=sport+news";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));
         startActivity(i);
