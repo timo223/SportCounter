@@ -6,7 +6,7 @@
     <string name="category_phrases">Sport News</string>
 
     <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
-    <string name="category_colors">Checklist</string>
+    <string name="category_colors">Spielstände</string>
 
     <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="category_numbers">Kicker</string>

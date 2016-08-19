@@ -50,8 +50,8 @@ public class ChecklistActivity extends AppCompatActivity {
             case R.id.action_add_task:
                 final EditText taskEditText = new EditText(this);
                 AlertDialog dialog = new AlertDialog.Builder(this)
-                        .setTitle("Add a new task")
-                        .setMessage("Submit your score")
+                        .setTitle("Spielstände")
+                        .setMessage("Trage deine Ergebnisse ein:")
                         .setView(taskEditText)
                         .setPositiveButton("Add", new DialogInterface.OnClickListener() {
                             @Override
