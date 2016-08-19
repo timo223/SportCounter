@@ -31,6 +31,7 @@
         android:onClick="openChecklist"/>
 
     <TextView
+        android:onClick="openNews"
         android:id="@+id/phrases"
         style="@style/CategoryStyle"
         android:background="@color/category_news"

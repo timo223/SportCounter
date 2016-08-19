@@ -10,7 +10,8 @@
     tools:context="com.example.android.sportcounter.BasketballActivity">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
 
         <LinearLayout
             android:layout_width="0dp"
@@ -145,5 +146,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="32dp"
         android:onClick="reset"
-        android:text="Reset" />
+        android:text="Reset"
+        android:id="@+id/button3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@mipmap/basketball"
+        android:layout_above="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
 </RelativeLayout>

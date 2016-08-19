@@ -127,5 +127,15 @@
         android:onClick="resetScore"
         android:text="Reset"
         android:id="@+id/button" />
+
+    <ImageView
+        android:src="@mipmap/football2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout" />
+
 </RelativeLayout>
 
