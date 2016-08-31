@@ -18,20 +18,23 @@
         style="@style/CategoryStyle"
         android:background="@color/category_kicker"
         android:text="@string/category_numbers"
-        android:onClick="openKicker" />
+        android:onClick="openKicker"
+        android:drawableRight="@mipmap/football"/>
 
     <TextView
         android:id="@+id/family"
         style="@style/CategoryStyle"
         android:background="@color/category_basketball"
         android:text="@string/category_family"
-        android:onClick="openBasketball" />
+        android:onClick="openBasketball"
+        android:drawableRight="@mipmap/basketball"/>
 
     <TextView
         android:id="@+id/colors"
         style="@style/CategoryStyle"
         android:background="@color/category_checklist"
         android:text="@string/category_colors"
+        android:drawableRight="@mipmap/note2"
         android:onClick="openChecklist"/>
 
     <TextView
@@ -39,6 +42,7 @@
         android:id="@+id/phrases"
         style="@style/CategoryStyle"
         android:background="@color/category_news"
+        android:drawableRight="@mipmap/news"
         android:text="@string/category_phrases" />
 
 </LinearLayout>
