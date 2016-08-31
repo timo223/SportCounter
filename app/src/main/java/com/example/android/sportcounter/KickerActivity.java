@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class KickerActivity extends AppCompatActivity {
     int scoreTeamA = 0;
@@ -21,6 +22,9 @@ public class KickerActivity extends AppCompatActivity {
     }
 
     public void minusScoreA(View v) {
+        if (scoreTeamA == 0){
+            Toast.makeText(this, "You cannot go under 0", Toast.LENGTH_SHORT).show();
+        }
         displayForTeamA(2);
         if (scoreTeamA > 0) {
             scoreTeamA = scoreTeamA -1;
@@ -35,9 +39,12 @@ public class KickerActivity extends AppCompatActivity {
     }
 
     public void resetScore(View v) {
+        if (scoreTeamA + scoreTeamB == 0) {
+            Toast.makeText(this, "You already reset the score", Toast.LENGTH_SHORT).show();
+        }
         scoreTeamA = 0;
         scoreTeamB = 0;
-        displayForTeamA(scoreTeamA);
+         displayForTeamA(scoreTeamA);
         displayForTeamB(scoreTeamB);
     }
     /**
@@ -55,6 +62,9 @@ public class KickerActivity extends AppCompatActivity {
     }
 
     public void minusScoreB(View v) {
+        if (scoreTeamB == 0) {
+            Toast.makeText(this, "You cannot go under 0", Toast.LENGTH_SHORT).show();
+        }
         displayForTeamB(2);
         if (scoreTeamB > 0) {
             scoreTeamB = scoreTeamB -1;
