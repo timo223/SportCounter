@@ -30,6 +30,13 @@ public class BasketballActivity extends AppCompatActivity {
         changeA(resultA);
 
     }
+    public void minusA(View view){
+        if (resultA > 0) {
+            resultA = resultA - 1;
+        }
+        changeA(resultA);
+
+    }
 
     public void bClick3(View view){
         resultB=resultB+3;
@@ -46,6 +53,12 @@ public class BasketballActivity extends AppCompatActivity {
         resultB=resultB+1;
         changeB(resultB);
 
+    }
+    public void minusB(View view){
+        if (resultB > 0) {
+            resultB = resultB - 1;
+        }
+        changeB(resultB);
     }
 
     public void reset(View view){
