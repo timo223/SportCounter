@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
         i.setData(Uri.parse(url));
         startActivity(i);
     }
+
+    public void openAbout(View view){
+        Intent i = new Intent(this, AboutActivity.class);
+        startActivity(i);
+    }
 }

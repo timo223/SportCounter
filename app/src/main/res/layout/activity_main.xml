@@ -3,7 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/tan_background">
+
 
 
 <LinearLayout
@@ -44,6 +46,14 @@
         android:background="@color/category_news"
         android:drawableRight="@mipmap/news"
         android:text="@string/category_phrases" />
+
+    <TextView
+        android:onClick="openAbout"
+        android:text="About"
+        style="@style/CategoryStyle"
+        android:background="@color/category_about"
+        android:id="@+id/textView"
+        android:drawableRight="@mipmap/questionmark"/>
 
 </LinearLayout>
 </ScrollView>

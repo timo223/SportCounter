@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:icon="@mipmap/trophy"
         android:label="@string/app_name"
-        android:supportsRtl="true"
-        >
-        <activity android:name=".MainActivity"
+        android:supportsRtl="true">
+        <activity
+            android:name=".MainActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,15 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KickerActivity"
-            android:theme="@style/KickerTheme"
-            android:label="@string/category_numbers"/>
-        <activity android:name=".BasketballActivity"
+        <activity
+            android:name=".KickerActivity"
+            android:label="@string/category_numbers"
+            android:theme="@style/KickerTheme" />
+        <activity
+            android:name=".BasketballActivity"
             android:label="@string/category_family"
-            android:theme="@style/BasketballTheme"/>
-        <activity android:name=".ChecklistActivity"
-            android:theme="@style/ChecklistTheme"
-            android:label="@string/category_colors"/>
+            android:theme="@style/BasketballTheme" />
+        <activity
+            android:name=".ChecklistActivity"
+            android:label="@string/category_colors"
+            android:theme="@style/ChecklistTheme" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="About"
+            android:theme="@style/AboutTheme"/>
+
     </application>
 
 </manifest>

@@ -20,4 +20,6 @@
 
 
     <color name="category_news">#2196F3</color>
+
+    <color name="category_about">#757575</color>
 </resources>
