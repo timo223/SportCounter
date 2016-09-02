@@ -6,10 +6,13 @@
         android:allowBackup="true"
         android:icon="@mipmap/trophy"
         android:label="@string/app_name"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:screenOrientation ="portrait"
+        >
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme">
+            android:theme="@style/AppTheme"
+            android:screenOrientation ="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,19 +22,23 @@
         <activity
             android:name=".KickerActivity"
             android:label="@string/category_numbers"
-            android:theme="@style/KickerTheme" />
+            android:theme="@style/KickerTheme"
+            android:screenOrientation ="portrait"/>
         <activity
             android:name=".BasketballActivity"
             android:label="@string/category_family"
-            android:theme="@style/BasketballTheme" />
+            android:theme="@style/BasketballTheme"
+            android:screenOrientation ="portrait"/>
         <activity
             android:name=".ChecklistActivity"
             android:label="@string/category_colors"
-            android:theme="@style/ChecklistTheme" />
+            android:theme="@style/ChecklistTheme"
+            android:screenOrientation ="portrait"/>
         <activity
             android:name=".AboutActivity"
             android:label="About"
-            android:theme="@style/AboutTheme"/>
+            android:theme="@style/AboutTheme"
+            android:screenOrientation ="portrait"/>
 
     </application>
 
