@@ -13,4 +13,8 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Basketball</string>
+
+    <string name="about1">Hallo Benutzer, so ein „About“ ist immer eine gute Möglichkeit den Entwickler auch mal zu Wort kommen zu lassen,  oder wie es hier der Fall ist, die beiden Entwickler. Wir, Timo und Kim, hatten die Aufgabe eine eigene kleine App zu entwickeln.  Dies geschah im Rahmen unserer Ausbildung zum Fachinformatiker für Anwendungsentwicklung  und wie du siehst hat das scheinbar gut geklappt,  da du dir diese App ja schon runterladen konntest. </string>
+    
+    <string name="about2">Bei unserer App handelt es sich um ein Programm um deine Spielstände bei verschiedenen Sportarten eintragen zu können  und es hat sogar eine kleine Speicherfunktion in der du am Ende deine Einträge für das nächste Mal festhalten kannst. </string>
 </resources>
