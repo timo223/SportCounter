@@ -53,7 +53,7 @@
         style="@style/CategoryStyle"
         android:background="@color/category_about"
         android:id="@+id/textView"
-        android:drawableRight="@mipmap/questionmark"/>
+        android:drawableRight="@mipmap/questionmark" />
 
 </LinearLayout>
 </ScrollView>

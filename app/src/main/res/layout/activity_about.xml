@@ -12,7 +12,7 @@
 
 
     <TextView
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -78,14 +78,58 @@
         android:layout_marginRight="10dp"/>
 
         <TextView
+            android:id="@+id/textView8"
             android:onClick="openIconfinder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="https://www.iconfinder.com/"
             android:layout_below="@+id/textView7"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="50dp"
             android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="and"
+            android:id="@+id/textView9"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:onClick="openFlaticon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="http://www.flaticon.com/"
+            android:layout_below="@+id/textView9"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/textView11"
+            android:onClick="openFlaticon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Football: by Elias Bikbulatov"
+            android:layout_below="@+id/textView10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:onClick="openFlaticon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scoreboard: by Roundicons"
+            android:layout_below="@+id/textView11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="50dp"/>
+
+
 
 </RelativeLayout>
 </ScrollView>
